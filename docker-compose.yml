@@ -3,6 +3,6 @@ version: '3.5'
 services:
   cors:
     build: .
-    container_name: cors
+    container_name: cors-qa.letsdochinese.com
     ports:
-      - "your_port:80"
+      - "8090:80"
